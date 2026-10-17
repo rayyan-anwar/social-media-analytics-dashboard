@@ -1,0 +1,14 @@
+services:
+  social-media-analytics-dashboard:
+    build: .
+    ports:
+      - "8014:8014"
+    env_file:
+      - path: .env
+        required: false
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8014/health', timeout=4)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3

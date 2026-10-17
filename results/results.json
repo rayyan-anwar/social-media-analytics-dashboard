@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-10-11T04:10:50+00:00",
+  "environment": {
+    "platform": "Linux-6.18.44-fc-v114-x86_64-with-glibc2.39",
+    "python": "3.12.3",
+    "cpu_count": 1
+  },
+  "detection": {
+    "seeds": 20,
+    "posts_per_dataset": 3000,
+    "days": 60,
+    "spike_recall": 1.0,
+    "false_spike_days_per_dataset": 0.15,
+    "trend_direction_correct": 1.0,
+    "best_hour_top1": 1.0,
+    "best_hour_in_top3": 1.0,
+    "top_engagement_hashtag_correct": 1.0,
+    "sentiment_accuracy_mean": 0.9711000000000001,
+    "sentiment_accuracy_sd": 0.002582215377792857
+  },
+  "validation": {
+    "injected": {
+      "invalid_timestamp": 50,
+      "invalid_or_negative_counts": 70,
+      "duplicate_post_id": 30
+    },
+    "reported": {
+      "invalid_timestamp": 50,
+      "invalid_or_negative_counts": 70,
+      "duplicate_post_id": 30
+    },
+    "exact_match": true,
+    "rows_kept": 1880,
+    "expected_rows_kept": 1880
+  },
+  "runtime": {
+    "load_and_analyze_seconds": {
+      "10000": 0.07,
+      "50000": 0.25
+    }
+  }
+}

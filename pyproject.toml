@@ -1,0 +1,22 @@
+[project]
+name = "social-media-analytics-dashboard"
+version = "0.1.0"
+description = "Validate and analyse imported social-media post datasets: engagement, sentiment, trends, spikes, hashtags, posting times and downloadable reports."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Rayyan Anwar" }]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<3", "pandas>=2.1,<4", "fastapi>=0.110,<1", "uvicorn>=0.29,<1", "pydantic>=2.6,<3"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "httpx>=0.27", "ruff>=0.5"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+ignore = ["E501", "E731", "E741"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

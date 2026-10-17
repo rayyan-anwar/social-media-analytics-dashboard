@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Social Media Analytics Dashboard — Rayyan Anwar</title>
+<style>
+:root{--bg:#f2f5f7;--surface:#fff;--ink:#14202b;--muted:#52606d;--rule:#d5dde3;--accent:#0b6e7f;--accent-ink:#fff;--err:#a61b1b;--c1:#0b6e7f;--c2:#b45f06;--pos:#17613a;--neg:#a61b1b;--neu:#6b7a88}
+@media (prefers-color-scheme:dark){:root{--bg:#10171d;--surface:#18222b;--ink:#e8eef2;--muted:#9fb0bd;--rule:#2b3945;--accent:#5cc2d3;--accent-ink:#06222a;--err:#ff8c8c;--c1:#5cc2d3;--c2:#f0b36b;--pos:#7fd8a6;--neg:#ff8c8c;--neu:#9fb0bd}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:1040px;margin:0 auto;padding:24px 16px 48px}h1{font-size:1.7rem;margin:0 0 4px}h2{font-size:1.15rem;margin:0 0 8px}
+p.lede{color:var(--muted);margin:0 0 20px;max-width:72ch}section{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:16px;margin:0 0 16px}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}button,input,select{font:inherit;color:inherit}
+button{padding:9px 16px;border-radius:4px;border:1px solid var(--accent);background:var(--accent);color:var(--accent-ink);font-weight:600;cursor:pointer}button.secondary{background:transparent;color:var(--accent)}button:disabled{opacity:.55}
+input[type=file]{max-width:100%}:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.status{min-height:1.5em;color:var(--muted);margin:8px 0 0}.status.error{color:var(--err);font-weight:600}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:8px}.kpi{border:1px solid var(--rule);border-radius:6px;padding:8px 10px}.kpi b{display:block;font-size:1.3rem;font-variant-numeric:tabular-nums}.kpi span{color:var(--muted);font-size:.85rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}svg{width:100%;height:auto;display:block}.axis{stroke:var(--rule)}text{fill:var(--muted);font-size:11px}
+.scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}th,td{padding:5px 8px;border-bottom:1px solid var(--rule);text-align:right}th:first-child,td:first-child{text-align:left}
+.note{color:var(--muted);font-size:.9rem}footer{color:var(--muted);font-size:.9rem}
+</style></head><body><main>
+<h1>Social Media Analytics Dashboard</h1>
+<p class="lede">Import a CSV of posts, see validation results, engagement, sentiment, trends, spikes, hashtags and posting times, and download a report. Everything is computed on the server from your file; nothing is stored.</p>
+<section aria-labelledby="i-h"><h2 id="i-h">Import</h2>
+<div class="row"><label for="file">CSV file</label><input id="file" type="file" accept=".csv,text/csv"><button id="sample" class="secondary">Use sample data</button></div>
+<p class="note">Required columns: post_id, timestamp, platform, text, likes, shares, comments. Optional: author, followers. Timestamps are read as UTC. Limit 5 MB.</p>
+<p class="status" id="st" role="status">No dataset loaded yet.</p></section>
+<div id="out" hidden>
+<section aria-labelledby="s-h"><h2 id="s-h">Summary</h2><div class="kpis" id="kpis"></div><p class="note" id="val"></p>
+<div class="row"><button id="dlJson" class="secondary">Download JSON</button><button id="dlMd" class="secondary">Download report (Markdown)</button><button id="dlCsv" class="secondary">Download daily CSV</button></div></section>
+<section><h2>Daily engagement</h2><div id="daily"></div><p class="note" id="trend"></p></section>
+<div class="grid"><section><h2>Sentiment</h2><div id="sent"></div></section><section><h2>Posting hour (mean engagement, UTC)</h2><div id="hours"></div></section></div>
+<section><h2>Platforms</h2><div class="scroll"><table id="plat"></table></div></section>
+<div class="grid"><section><h2>Hashtags</h2><div class="scroll"><table id="tags"></table></div></section><section><h2>Spikes</h2><ul id="spk"></ul></section></div>
+<section><h2>Top posts</h2><div class="scroll"><table id="top"></table></div></section>
+<section><h2>Assumptions and limitations</h2><ul id="asm"></ul></section></div>
+<footer><p><strong>About.</strong> Built by Rayyan Anwar (AI/ML Engineer | Researcher | Technology Manager | Software Developer). Sentiment is a rough lexicon signal; trends and spikes are descriptive heuristics. MIT licence. © Rayyan Anwar.</p></footer>
+</main><script>
+"use strict";
+const $=(i)=>document.getElementById(i),NS="http://www.w3.org/2000/svg";let A=null;
+function st(t,e){const x=$("st");x.textContent=t;x.className="status"+(e?" error":"")}
+function clear(n){while(n.firstChild)n.removeChild(n.firstChild)}
+function el(tag,attrs,text){const e=document.createElementNS(NS,tag);for(const[k,v]of Object.entries(attrs||{}))e.setAttribute(k,v);if(text!==undefined)e.textContent=text;return e}
+function table(t,head,rows){clear(t);const h=document.createElement("tr");for(const x of head){const c=document.createElement("th");c.textContent=x;h.appendChild(c)}t.appendChild(h);
+ for(const r of rows){const tr=document.createElement("tr");for(const x of r){const c=document.createElement("td");c.textContent=x;tr.appendChild(c)}t.appendChild(tr)}}
+function line(host,labels,series){clear(host);const W=640,H=220,p={l:48,r:10,t:10,b:24};const svg=el("svg",{viewBox:`0 0 ${W} ${H}`,role:"img","aria-label":"Daily engagement line chart"});
+ const max=Math.max(1,...series.flatMap(s=>s.v));const x=(i)=>p.l+(W-p.l-p.r)*i/Math.max(1,labels.length-1),y=(v)=>H-p.b-(H-p.t-p.b)*v/max;
+ svg.appendChild(el("line",{x1:p.l,y1:H-p.b,x2:W-p.r,y2:H-p.b,class:"axis"}));svg.appendChild(el("line",{x1:p.l,y1:p.t,x2:p.l,y2:H-p.b,class:"axis"}));
+ svg.appendChild(el("text",{x:4,y:p.t+8},Math.round(max)));svg.appendChild(el("text",{x:4,y:H-p.b},"0"));
+ svg.appendChild(el("text",{x:p.l,y:H-6},labels[0]));svg.appendChild(el("text",{x:W-p.r,y:H-6,"text-anchor":"end"},labels[labels.length-1]));
+ for(const s of series){svg.appendChild(el("polyline",{fill:"none",stroke:s.color,"stroke-width":s.w||1.5,points:s.v.map((v,i)=>x(i)+","+y(v)).join(" ")}))}
+ host.appendChild(svg);const lg=document.createElement("p");lg.className="note";lg.textContent=series.map(s=>s.name).join(" · ");host.appendChild(lg)}
+function bars(host,labels,vals,colors,label){clear(host);const W=640,H=200,p={l:40,r:6,t:8,b:24};const svg=el("svg",{viewBox:`0 0 ${W} ${H}`,role:"img","aria-label":label});
+ const max=Math.max(1,...vals),bw=(W-p.l-p.r)/vals.length;svg.appendChild(el("line",{x1:p.l,y1:H-p.b,x2:W-p.r,y2:H-p.b,class:"axis"}));svg.appendChild(el("text",{x:2,y:p.t+8},Math.round(max)));
+ vals.forEach((v,i)=>{const h=(H-p.t-p.b)*v/max;svg.appendChild(el("rect",{x:p.l+i*bw+1,y:H-p.b-h,width:Math.max(1,bw-2),height:h,fill:colors[i%colors.length]}));
+  if(vals.length<=8||i%3===0)svg.appendChild(el("text",{x:p.l+i*bw+bw/2,y:H-8,"text-anchor":"middle"},labels[i]))});host.appendChild(svg)}
+function dl(name,text,type){const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([text],{type}));a.download=name;a.click();URL.revokeObjectURL(a.href)}
+function render(a){A=a;$("out").hidden=false;const s=a.summary,v=a.validation;clear($("kpis"));
+ for(const[k,x]of[["Posts",s.posts],["Total engagement",s.total_engagement],["Mean / post",s.mean_engagement.toFixed(1)],["Median / post",s.median_engagement.toFixed(1)],["Platforms",s.platforms],["Mean engagement rate",s.mean_engagement_rate==null?"n/a":(100*s.mean_engagement_rate).toFixed(2)+"%"]]){
+  const d=document.createElement("div");d.className="kpi";const b=document.createElement("b");b.textContent=x;const sp=document.createElement("span");sp.textContent=k;d.append(b,sp);$("kpis").appendChild(d)}
+ $("val").textContent="Validation: "+v.rows_kept+" of "+v.rows_in+" rows kept; dropped "+JSON.stringify(v.dropped)+"; range "+v.date_range.join(" to ")+".";
+ line($("daily"),a.daily.map(d=>d.date),[{name:"Daily engagement",v:a.daily.map(d=>d.engagement),color:"var(--c1)",w:1},{name:"7-day rolling mean",v:a.daily.map(d=>d.rolling7_engagement),color:"var(--c2)",w:2}]);
+ const t=a.trend;$("trend").textContent="Trend: "+t.direction+(t.slope_per_day!==undefined?" (slope "+t.slope_per_day.toFixed(1)+"/day, Spearman rho "+t.spearman_rho.toFixed(2)+"). Descriptive only, not a forecast.":".");
+ bars($("sent"),["positive","neutral","negative"],["positive","neutral","negative"].map(k=>a.sentiment.share[k]*100),["var(--pos)","var(--neu)","var(--neg)"],"Sentiment share percent");
+ const H=a.best_hours.table;bars($("hours"),H.map(r=>r.hour),H.map(r=>r.mean_engagement),["var(--c1)"],"Mean engagement by hour");
+ table($("plat"),["Platform","Posts","Total","Mean","Median","Mean sentiment"],a.platforms.map(p=>[p.platform,p.posts,p.total_engagement,p.mean_engagement.toFixed(1),p.median_engagement.toFixed(1),p.mean_sentiment_score.toFixed(2)]));
+ table($("tags"),["Hashtag","Posts","Mean engagement"],a.hashtags.map(h=>[h.hashtag,h.posts,h.mean_engagement.toFixed(1)]));
+ const u=$("spk");clear(u);(a.spikes.length?a.spikes.map(x=>x.date+": "+x.engagement+" (z="+x.robust_z.toFixed(1)+")"):["No spikes above the threshold."]).forEach(x=>{const li=document.createElement("li");li.textContent=x;u.appendChild(li)});
+ table($("top"),["Post","Platform","Engagement","Sentiment","Text"],a.top_posts.map(p=>[p.post_id,p.platform,p.engagement,p.sentiment,p.text]));
+ const m=$("asm");clear(m);a.assumptions.forEach(x=>{const li=document.createElement("li");li.textContent=x;m.appendChild(li)})}
+async function analyze(text){st("Analysing…");try{const r=await fetch("/api/analyze",{method:"POST",headers:{"Content-Type":"text/csv"},body:text});const d=await r.json().catch(()=>({}));
+ if(!r.ok)throw new Error((d.error&&d.error.message)||(typeof d.detail==="string"&&d.detail)||"Request failed ("+r.status+")");render(d);st("Done: "+d.summary.posts+" posts analysed.")}catch(e){st(e.message,true)}}
+$("file").onchange=(ev)=>{const f=ev.target.files[0];if(!f)return;if(f.size>5000000){st("File is larger than 5 MB.",true);return}const rd=new FileReader();rd.onload=()=>analyze(rd.result);rd.onerror=()=>st("Could not read the file.",true);rd.readAsText(f)};
+$("sample").onclick=async()=>{st("Loading sample…");try{const r=await fetch("/api/sample?n=2000&seed=0");if(!r.ok)throw new Error("Could not load sample");await analyze(await r.text())}catch(e){st(e.message,true)}};
+$("dlJson").onclick=()=>A&&dl("analysis.json",JSON.stringify(A,null,2),"application/json");$("dlMd").onclick=()=>A&&dl("report.md",A.markdown,"text/markdown");
+$("dlCsv").onclick=()=>{if(!A)return;dl("daily.csv",["date,posts,engagement,rolling7_engagement"].concat(A.daily.map(d=>[d.date,d.posts,d.engagement,d.rolling7_engagement].join(","))).join("\n"),"text/csv")};
+</script></body></html>

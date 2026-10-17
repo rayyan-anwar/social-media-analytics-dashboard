@@ -1,0 +1,501 @@
+post_id,timestamp,platform,text,likes,shares,comments,author,followers,true_sentiment
+p1_0,2025-03-22T18:43:00,facebook,meeting notes shared #tips #team,71,11,1,user15,7171,neutral
+p1_1,2025-03-24T03:54:00,facebook,awful experience today #tips #launch,78,0,27,user33,10855,negative
+p1_2,2025-04-03T14:53:00,x,so happy with this #tips,29,4,4,user35,46366,positive
+p1_3,2025-04-12T19:17:00,facebook,meeting notes shared #product #launch,362,27,47,user9,14635,neutral
+p1_4,2025-03-02T08:18:00,facebook,so disappointed with the delay,16,4,8,user21,10021,negative
+p1_5,2025-03-07T13:52:00,instagram,great launch today #launch,169,20,7,user9,14635,positive
+p1_6,2025-04-07T02:39:00,facebook,meeting notes shared,17,1,19,user11,13329,neutral
+p1_7,2025-04-12T06:49:00,linkedin,schedule for next week #launch,121,10,9,user24,22785,neutral
+p1_8,2025-03-12T10:14:00,linkedin,awful experience today,24,0,9,user16,40155,negative
+p1_9,2025-03-15T13:25:00,x,excellent results this week #tips,17,6,0,user19,17482,positive
+p1_10,2025-04-09T15:15:00,linkedin,so disappointed with the delay #launch,84,2,48,user19,17482,negative
+p1_11,2025-03-20T20:58:00,instagram,so happy with this,23,10,11,user24,22785,positive
+p1_12,2025-03-13T12:05:00,instagram,meeting notes shared #tips,46,15,13,user16,40155,neutral
+p1_13,2025-04-07T02:31:00,x,so happy with this #team,33,4,18,user19,17482,positive
+p1_14,2025-03-12T20:14:00,instagram,terrible outage again,69,4,20,user39,45976,negative
+p1_15,2025-03-19T06:54:00,linkedin,reading list updated #team #product #launch,158,3,20,user25,20248,neutral
+p1_16,2025-03-29T07:58:00,instagram,terrible outage again,87,7,13,user23,10441,negative
+p1_17,2025-03-25T22:25:00,x,excellent results this week,14,0,0,user4,13953,positive
+p1_18,2025-03-04T19:48:00,x,not great launch today #news,85,11,22,user18,32299,negative
+p1_19,2025-03-02T12:30:00,facebook,this is broken and slow #product #event,37,1,1,user8,46344,negative
+p1_20,2025-04-08T08:49:00,instagram,great launch today,45,31,12,user0,35726,positive
+p1_21,2025-04-03T13:17:00,x,so happy with this #news #tips,12,7,10,user18,32299,positive
+p1_22,2025-04-07T12:39:00,facebook,awful experience today #tips #team #event,120,14,6,user23,10441,negative
+p1_23,2025-03-25T20:06:00,instagram,so happy with this #launch,148,5,13,user26,46252,positive
+p1_24,2025-04-06T13:31:00,facebook,new post is live #news,44,12,22,user35,46366,neutral
+p1_25,2025-03-15T06:28:00,linkedin,new post is live,51,7,0,user29,11812,neutral
+p1_26,2025-03-21T21:15:00,linkedin,not love the new update #product,33,4,11,user0,35726,negative
+p1_27,2025-04-05T18:33:00,x,excellent results this week,32,1,14,user8,46344,positive
+p1_28,2025-03-06T07:23:00,linkedin,great launch today #tips,51,1,20,user11,13329,positive
+p1_29,2025-03-14T07:59:00,facebook,amazing support from the team,60,0,2,user13,9480,positive
+p1_30,2025-03-06T15:24:00,linkedin,hate the new layout #news #tips,27,2,10,user35,46366,negative
+p1_31,2025-03-21T06:25:00,linkedin,terrible outage again,7,10,0,user15,7171,negative
+p1_32,2025-04-13T18:14:00,instagram,photo from the event,52,11,21,user39,45976,neutral
+p1_33,2025-03-07T18:21:00,x,not so disappointed with the delay #news #event,21,1,18,user25,20248,positive
+p1_34,2025-03-18T03:22:00,facebook,love the new update #product,46,1,14,user0,35726,positive
+p1_35,2025-03-19T20:35:00,instagram,excellent results this week #news,39,5,27,user26,46252,positive
+p1_36,2025-04-10T20:46:00,x,awful experience today #news,24,7,0,user32,48655,negative
+p1_37,2025-03-10T21:11:00,instagram,hate the new layout #team,88,19,30,user20,40176,negative
+p1_38,2025-03-23T19:36:00,facebook,love the new update #news,90,25,18,user22,20349,positive
+p1_39,2025-03-12T19:06:00,linkedin,love the new update,33,11,14,user13,9480,positive
+p1_40,2025-03-01T09:20:00,facebook,so happy with this,41,0,3,user33,10855,positive
+p1_41,2025-04-03T02:53:00,linkedin,reading list updated #event,36,3,32,user34,45705,neutral
+p1_42,2025-03-03T06:17:00,instagram,meeting notes shared,28,1,7,user2,43665,neutral
+p1_43,2025-03-13T22:22:00,x,new post is live #tips #event,2,2,19,user1,30604,neutral
+p1_44,2025-03-23T18:25:00,facebook,this is broken and slow,21,5,14,user3,13149,negative
+p1_45,2025-03-22T22:21:00,facebook,great launch today #product #event,32,13,21,user17,33560,positive
+p1_46,2025-03-06T13:57:00,facebook,meeting notes shared #team #product,33,3,4,user17,33560,neutral
+p1_47,2025-04-14T19:09:00,linkedin,amazing support from the team #product,178,15,20,user10,2714,positive
+p1_48,2025-04-03T06:00:00,linkedin,reading list updated #news #team #product,39,0,11,user24,22785,neutral
+p1_49,2025-04-13T09:38:00,x,not amazing support from the team #tips,34,4,10,user0,35726,negative
+p1_50,2025-03-05T12:30:00,instagram,schedule for next week #event,41,5,22,user5,10157,neutral
+p1_51,2025-04-02T17:49:00,facebook,reading list updated #tips #team #product #event,43,3,3,user2,43665,neutral
+p1_52,2025-03-14T18:59:00,x,this is broken and slow #news #tips #product #event,44,3,4,user37,3264,negative
+p1_53,2025-03-25T16:03:00,x,awful experience today #event,24,0,13,user4,13953,negative
+p1_54,2025-04-11T14:54:00,instagram,hate the new layout #team #event,29,10,33,user1,30604,negative
+p1_55,2025-03-13T18:00:00,instagram,schedule for next week,14,7,5,user10,2714,neutral
+p1_56,2025-04-02T22:07:00,instagram,new post is live #news,45,9,28,user15,7171,neutral
+p1_57,2025-03-08T15:15:00,instagram,reading list updated,75,12,15,user32,48655,neutral
+p1_58,2025-03-15T20:05:00,instagram,terrible outage again,56,4,43,user20,40176,negative
+p1_59,2025-04-13T05:22:00,linkedin,great launch today #team,35,3,1,user1,30604,positive
+p1_60,2025-03-19T13:10:00,linkedin,meeting notes shared,8,5,11,user32,48655,neutral
+p1_61,2025-03-24T18:47:00,linkedin,so disappointed with the delay #launch,138,17,15,user24,22785,negative
+p1_62,2025-03-14T18:31:00,x,love the new update #product,28,3,11,user12,41130,positive
+p1_63,2025-03-06T11:16:00,instagram,love the new update #tips #launch,76,6,39,user14,12227,positive
+p1_64,2025-03-20T13:02:00,facebook,not excellent results this week #product,61,8,8,user37,3264,negative
+p1_65,2025-03-29T22:49:00,facebook,great launch today,53,2,15,user8,46344,positive
+p1_66,2025-03-21T18:04:00,linkedin,reading list updated #product,39,2,16,user29,11812,neutral
+p1_67,2025-04-04T18:07:00,x,reading list updated #team #product,56,0,10,user16,40155,neutral
+p1_68,2025-03-17T06:12:00,linkedin,meeting notes shared #product #event,32,3,2,user7,14113,neutral
+p1_69,2025-03-28T05:47:00,facebook,amazing support from the team #team #product #launch,159,26,57,user30,8231,positive
+p1_70,2025-04-04T10:06:00,x,so happy with this #news,60,9,12,user35,46366,positive
+p1_71,2025-04-11T08:21:00,x,terrible outage again #product,15,9,8,user20,40176,negative
+p1_72,2025-03-20T23:06:00,x,hate the new layout,30,5,7,user17,33560,negative
+p1_73,2025-03-02T00:41:00,facebook,excellent results this week #team,32,5,1,user20,40176,positive
+p1_74,2025-04-02T13:31:00,facebook,not excellent results this week #product #event,26,5,7,user13,9480,negative
+p1_75,2025-03-24T05:49:00,instagram,new post is live #tips,60,23,9,user9,14635,neutral
+p1_76,2025-04-09T18:23:00,facebook,terrible outage again #team,40,5,9,user6,33415,negative
+p1_77,2025-03-21T04:06:00,linkedin,awful experience today,34,2,2,user14,12227,negative
+p1_78,2025-03-17T06:44:00,linkedin,not terrible outage again,23,4,17,user22,20349,positive
+p1_79,2025-03-03T06:41:00,linkedin,reading list updated,23,2,4,user33,10855,neutral
+p1_80,2025-03-21T12:54:00,x,photo from the event #event,39,2,2,user39,45976,neutral
+p1_81,2025-03-29T18:51:00,linkedin,not hate the new layout #news #tips,30,7,4,user14,12227,positive
+p1_82,2025-04-04T20:23:00,instagram,so happy with this #launch,141,18,85,user15,7171,positive
+p1_83,2025-04-08T12:55:00,x,meeting notes shared #event,26,9,2,user6,33415,neutral
+p1_84,2025-03-10T12:39:00,facebook,this is broken and slow,58,6,7,user4,13953,negative
+p1_85,2025-03-27T20:00:00,x,excellent results this week #event,38,0,8,user34,45705,positive
+p1_86,2025-04-06T19:55:00,instagram,terrible outage again #event,72,21,1,user18,32299,negative
+p1_87,2025-03-12T08:00:00,x,great launch today #tips #event,25,6,4,user26,46252,positive
+p1_88,2025-03-16T20:07:00,x,photo from the event #team #event,102,36,58,user6,33415,neutral
+p1_89,2025-04-07T20:23:00,facebook,so happy with this,84,6,3,user0,35726,positive
+p1_90,2025-03-27T09:23:00,linkedin,reading list updated #news,53,3,28,user0,35726,neutral
+p1_91,2025-03-23T18:34:00,instagram,meeting notes shared #tips,116,8,20,user7,14113,neutral
+p1_92,2025-03-31T10:18:00,facebook,hate the new layout #event,40,5,8,user5,10157,negative
+p1_93,2025-03-23T11:34:00,instagram,great launch today,95,3,8,user19,17482,positive
+p1_94,2025-04-14T16:10:00,facebook,meeting notes shared #event,63,4,24,user11,13329,neutral
+p1_95,2025-04-03T17:04:00,x,photo from the event #tips,39,1,43,user6,33415,neutral
+p1_96,2025-03-03T15:03:00,instagram,schedule for next week #event,63,1,5,user23,10441,neutral
+p1_97,2025-03-07T17:48:00,facebook,photo from the event,55,12,8,user1,30604,neutral
+p1_98,2025-03-25T10:13:00,instagram,so disappointed with the delay #event,35,12,0,user9,14635,negative
+p1_99,2025-04-06T19:06:00,facebook,schedule for next week,120,9,58,user5,10157,neutral
+p1_100,2025-03-04T12:27:00,facebook,reading list updated,29,4,5,user4,13953,neutral
+p1_101,2025-03-31T21:50:00,linkedin,terrible outage again #event,41,12,15,user2,43665,negative
+p1_102,2025-04-04T16:48:00,x,new post is live #team #product,23,8,20,user3,13149,neutral
+p1_103,2025-04-05T12:29:00,instagram,new post is live #product,89,9,0,user13,9480,neutral
+p1_104,2025-04-09T09:28:00,facebook,awful experience today,35,6,9,user11,13329,negative
+p1_105,2025-03-09T15:08:00,linkedin,not amazing support from the team #product,18,3,11,user26,46252,negative
+p1_106,2025-03-25T13:16:00,instagram,new post is live #tips,19,17,8,user37,3264,neutral
+p1_107,2025-04-06T18:13:00,x,great launch today,36,2,5,user4,13953,positive
+p1_108,2025-03-17T16:44:00,facebook,reading list updated #launch,146,6,25,user23,10441,neutral
+p1_109,2025-03-09T03:39:00,linkedin,new post is live,29,1,0,user9,14635,neutral
+p1_110,2025-03-22T20:58:00,linkedin,love the new update #launch,112,6,35,user1,30604,positive
+p1_111,2025-03-04T05:05:00,x,amazing support from the team,19,5,15,user19,17482,positive
+p1_112,2025-03-10T20:38:00,x,this is broken and slow #tips,33,2,2,user16,40155,negative
+p1_113,2025-04-08T20:17:00,facebook,this is broken and slow #product,58,5,1,user27,25443,negative
+p1_114,2025-03-31T21:33:00,linkedin,so happy with this #launch,114,24,36,user28,4026,positive
+p1_115,2025-04-08T18:55:00,facebook,schedule for next week #product #event,24,6,22,user2,43665,neutral
+p1_116,2025-04-07T09:56:00,facebook,love the new update #product,29,0,6,user0,35726,positive
+p1_117,2025-04-09T14:11:00,facebook,excellent results this week,37,3,19,user15,7171,positive
+p1_118,2025-03-14T14:58:00,facebook,great launch today #product,23,4,10,user15,7171,positive
+p1_119,2025-03-22T18:14:00,facebook,new post is live #tips,23,7,8,user6,33415,neutral
+p1_120,2025-03-28T13:35:00,facebook,love the new update,71,13,5,user4,13953,positive
+p1_121,2025-03-13T19:13:00,x,schedule for next week #product,33,4,14,user18,32299,neutral
+p1_122,2025-04-11T10:11:00,facebook,meeting notes shared #event,57,0,5,user1,30604,neutral
+p1_123,2025-03-01T13:54:00,instagram,new post is live,42,12,11,user7,14113,neutral
+p1_124,2025-04-07T17:09:00,facebook,excellent results this week #product,46,5,43,user1,30604,positive
+p1_125,2025-03-30T14:32:00,linkedin,schedule for next week #tips #product,78,2,4,user19,17482,neutral
+p1_126,2025-03-12T07:02:00,instagram,reading list updated #product #event #launch,121,4,46,user34,45705,neutral
+p1_127,2025-04-02T22:30:00,linkedin,reading list updated #tips,59,9,0,user16,40155,neutral
+p1_128,2025-03-19T19:36:00,x,reading list updated #event,80,4,16,user24,22785,neutral
+p1_129,2025-04-07T20:31:00,facebook,photo from the event #product,26,8,10,user8,46344,neutral
+p1_130,2025-04-14T13:27:00,instagram,not terrible outage again,51,7,11,user1,30604,positive
+p1_131,2025-03-13T22:51:00,linkedin,not so happy with this #team,27,3,3,user23,10441,negative
+p1_132,2025-03-22T20:11:00,facebook,schedule for next week,22,4,2,user6,33415,neutral
+p1_133,2025-03-10T23:18:00,linkedin,not amazing support from the team #news #tips #product,34,4,15,user12,41130,negative
+p1_134,2025-04-01T10:45:00,instagram,meeting notes shared,59,6,18,user26,46252,neutral
+p1_135,2025-03-29T15:19:00,x,amazing support from the team #news #team,45,9,21,user8,46344,positive
+p1_136,2025-04-08T13:22:00,x,photo from the event,51,8,2,user24,22785,neutral
+p1_137,2025-04-06T18:44:00,facebook,so happy with this,99,7,19,user38,48686,positive
+p1_138,2025-04-13T11:11:00,linkedin,not great launch today #team #product,35,18,6,user1,30604,negative
+p1_139,2025-04-13T07:13:00,x,this is broken and slow,68,3,18,user29,11812,negative
+p1_140,2025-04-10T15:09:00,instagram,so disappointed with the delay #news,44,8,9,user31,31913,negative
+p1_141,2025-03-07T18:07:00,facebook,great launch today #team,52,4,2,user26,46252,positive
+p1_142,2025-03-02T13:37:00,facebook,so disappointed with the delay,20,15,19,user31,31913,negative
+p1_143,2025-03-22T23:07:00,linkedin,schedule for next week,29,3,9,user12,41130,neutral
+p1_144,2025-03-16T13:28:00,facebook,so happy with this #product,218,3,34,user33,10855,positive
+p1_145,2025-04-10T12:21:00,instagram,excellent results this week #news #tips,46,11,6,user17,33560,positive
+p1_146,2025-04-05T20:49:00,linkedin,this is broken and slow #news #tips #product,67,16,20,user0,35726,negative
+p1_147,2025-03-20T15:34:00,x,photo from the event,22,3,23,user5,10157,neutral
+p1_148,2025-03-26T12:10:00,facebook,love the new update,35,1,21,user5,10157,positive
+p1_149,2025-03-27T12:36:00,x,not great launch today,16,3,3,user17,33560,negative
+p1_150,2025-04-10T22:55:00,facebook,schedule for next week #tips,37,5,4,user36,7769,neutral
+p1_151,2025-03-02T22:17:00,x,excellent results this week #news #tips #team,5,4,3,user5,10157,positive
+p1_152,2025-03-23T18:28:00,x,so happy with this #tips,50,1,6,user22,20349,positive
+p1_153,2025-03-31T12:33:00,x,love the new update,22,3,16,user12,41130,positive
+p1_154,2025-03-21T19:39:00,x,amazing support from the team #product #launch,123,13,31,user4,13953,positive
+p1_155,2025-04-11T10:48:00,x,reading list updated,92,14,51,user25,20248,neutral
+p1_156,2025-04-12T12:21:00,linkedin,meeting notes shared #news #tips,36,4,4,user8,46344,neutral
+p1_157,2025-04-07T17:02:00,linkedin,reading list updated #tips,19,8,18,user2,43665,neutral
+p1_158,2025-03-21T13:18:00,facebook,reading list updated #news #product,52,10,6,user10,2714,neutral
+p1_159,2025-04-09T13:47:00,facebook,excellent results this week,45,11,13,user21,10021,positive
+p1_160,2025-03-04T23:13:00,x,so happy with this,26,8,8,user33,10855,positive
+p1_161,2025-03-30T09:41:00,facebook,terrible outage again #team,43,3,4,user23,10441,negative
+p1_162,2025-03-13T18:02:00,facebook,love the new update #tips #product,50,13,8,user18,32299,positive
+p1_163,2025-03-12T03:55:00,instagram,photo from the event,33,15,6,user36,7769,neutral
+p1_164,2025-03-31T06:01:00,linkedin,excellent results this week #event,32,7,8,user24,22785,positive
+p1_165,2025-04-04T10:59:00,instagram,great launch today #product #launch,95,16,39,user18,32299,positive
+p1_166,2025-04-09T23:33:00,x,amazing support from the team #launch,51,4,16,user2,43665,positive
+p1_167,2025-03-10T19:18:00,instagram,meeting notes shared #team,42,22,0,user4,13953,neutral
+p1_168,2025-04-09T20:10:00,instagram,schedule for next week #product,52,12,10,user27,25443,neutral
+p1_169,2025-04-07T04:21:00,facebook,new post is live #tips #team #event,39,3,15,user31,31913,neutral
+p1_170,2025-03-15T19:46:00,instagram,excellent results this week #news,43,10,24,user15,7171,positive
+p1_171,2025-03-03T14:11:00,facebook,hate the new layout #news #tips #product #event,40,1,1,user4,13953,negative
+p1_172,2025-04-04T13:40:00,facebook,photo from the event #launch,142,9,4,user34,45705,neutral
+p1_173,2025-04-07T19:34:00,x,love the new update,36,4,15,user35,46366,positive
+p1_174,2025-03-21T12:01:00,instagram,reading list updated #tips,41,5,0,user37,3264,neutral
+p1_175,2025-03-08T16:18:00,facebook,not amazing support from the team #event,33,5,30,user34,45705,negative
+p1_176,2025-03-07T12:04:00,linkedin,excellent results this week #team,12,0,7,user22,20349,positive
+p1_177,2025-03-17T13:33:00,x,excellent results this week,47,1,11,user14,12227,positive
+p1_178,2025-04-04T17:51:00,instagram,schedule for next week,50,17,20,user20,40176,neutral
+p1_179,2025-03-15T08:31:00,linkedin,amazing support from the team,36,2,7,user10,2714,positive
+p1_180,2025-03-02T12:41:00,facebook,meeting notes shared #news,23,6,7,user33,10855,neutral
+p1_181,2025-04-01T13:26:00,linkedin,new post is live,27,3,30,user25,20248,neutral
+p1_182,2025-04-03T15:06:00,facebook,amazing support from the team,63,1,26,user22,20349,positive
+p1_183,2025-03-09T20:26:00,linkedin,this is broken and slow #team #launch,90,26,26,user28,4026,negative
+p1_184,2025-03-26T18:45:00,facebook,reading list updated #event,53,0,5,user21,10021,neutral
+p1_185,2025-03-18T18:26:00,facebook,amazing support from the team #news #launch,129,12,23,user13,9480,positive
+p1_186,2025-03-23T20:42:00,linkedin,reading list updated,27,5,10,user31,31913,neutral
+p1_187,2025-03-01T10:10:00,instagram,this is broken and slow #tips,49,7,29,user12,41130,negative
+p1_188,2025-03-29T07:04:00,facebook,hate the new layout,58,17,38,user33,10855,negative
+p1_189,2025-03-12T13:30:00,linkedin,this is broken and slow,31,3,4,user22,20349,negative
+p1_190,2025-03-25T08:00:00,instagram,not excellent results this week,45,6,36,user35,46366,negative
+p1_191,2025-03-19T18:38:00,x,this is broken and slow #product,32,5,4,user28,4026,negative
+p1_192,2025-03-28T18:27:00,facebook,this is broken and slow #news #tips,36,9,17,user17,33560,negative
+p1_193,2025-03-05T08:43:00,linkedin,this is broken and slow,13,0,9,user32,48655,negative
+p1_194,2025-03-17T19:18:00,linkedin,amazing support from the team #news #event,45,4,2,user36,7769,positive
+p1_195,2025-03-29T18:28:00,x,not love the new update #news #tips #event,24,3,12,user22,20349,negative
+p1_196,2025-04-04T14:48:00,facebook,reading list updated,32,12,6,user24,22785,neutral
+p1_197,2025-03-18T21:52:00,linkedin,not love the new update #team #product,9,7,7,user35,46366,negative
+p1_198,2025-03-02T20:46:00,instagram,reading list updated #news,91,12,1,user22,20349,neutral
+p1_199,2025-04-02T10:19:00,facebook,love the new update #product,36,7,5,user14,12227,positive
+p1_200,2025-03-23T09:01:00,facebook,so happy with this,58,5,3,user18,32299,positive
+p1_201,2025-03-30T21:25:00,x,schedule for next week,66,5,5,user34,45705,neutral
+p1_202,2025-03-08T08:11:00,facebook,terrible outage again #event,26,2,9,user14,12227,negative
+p1_203,2025-03-20T19:15:00,instagram,reading list updated #event,138,10,58,user4,13953,neutral
+p1_204,2025-04-09T12:45:00,linkedin,excellent results this week,8,6,25,user38,48686,positive
+p1_205,2025-04-09T13:52:00,instagram,excellent results this week #news #team,27,15,19,user36,7769,positive
+p1_206,2025-03-15T17:40:00,facebook,great launch today #event,24,4,11,user29,11812,positive
+p1_207,2025-03-29T21:12:00,facebook,hate the new layout,38,1,4,user9,14635,negative
+p1_208,2025-03-04T00:21:00,instagram,new post is live,47,7,8,user38,48686,neutral
+p1_209,2025-04-06T09:13:00,linkedin,so happy with this,26,9,7,user21,10021,positive
+p1_210,2025-03-13T19:18:00,x,reading list updated #product,42,19,5,user32,48655,neutral
+p1_211,2025-03-16T13:48:00,facebook,excellent results this week #tips,112,13,49,user39,45976,positive
+p1_212,2025-04-13T12:27:00,linkedin,this is broken and slow,17,0,17,user8,46344,negative
+p1_213,2025-03-25T22:09:00,x,new post is live #tips #team,36,3,12,user23,10441,neutral
+p1_214,2025-04-09T12:24:00,linkedin,new post is live #product,29,2,15,user7,14113,neutral
+p1_215,2025-03-09T19:56:00,facebook,new post is live,78,13,23,user6,33415,neutral
+p1_216,2025-04-04T22:49:00,instagram,terrible outage again #tips #event,55,10,17,user34,45705,negative
+p1_217,2025-04-14T19:27:00,linkedin,reading list updated #team,105,1,26,user7,14113,neutral
+p1_218,2025-03-04T19:22:00,x,amazing support from the team #launch,138,23,88,user25,20248,positive
+p1_219,2025-03-11T19:57:00,instagram,schedule for next week,23,25,59,user12,41130,neutral
+p1_220,2025-03-07T20:23:00,facebook,so happy with this #news #tips #product,12,3,17,user18,32299,positive
+p1_221,2025-03-12T12:50:00,instagram,love the new update,14,0,8,user24,22785,positive
+p1_222,2025-03-14T18:24:00,instagram,love the new update #team,39,12,13,user18,32299,positive
+p1_223,2025-03-04T20:02:00,linkedin,amazing support from the team #product #event,21,0,4,user18,32299,positive
+p1_224,2025-04-10T20:09:00,x,reading list updated #tips,33,5,6,user38,48686,neutral
+p1_225,2025-03-12T21:26:00,instagram,hate the new layout,32,5,8,user19,17482,negative
+p1_226,2025-04-11T21:35:00,linkedin,so happy with this,12,9,23,user30,8231,positive
+p1_227,2025-04-04T07:44:00,x,love the new update #event,24,1,3,user7,14113,positive
+p1_228,2025-03-08T13:45:00,x,great launch today #tips #event,30,3,7,user38,48686,positive
+p1_229,2025-04-01T15:15:00,x,hate the new layout #tips,25,9,2,user34,45705,negative
+p1_230,2025-04-04T20:19:00,instagram,photo from the event #team #event,70,4,19,user3,13149,neutral
+p1_231,2025-03-06T13:18:00,x,not great launch today #product,18,4,11,user28,4026,negative
+p1_232,2025-03-06T12:37:00,linkedin,so happy with this #product,15,3,11,user12,41130,positive
+p1_233,2025-03-17T02:56:00,linkedin,not so happy with this #tips #team,36,3,4,user2,43665,negative
+p1_234,2025-03-04T12:05:00,facebook,reading list updated,32,1,6,user22,20349,neutral
+p1_235,2025-03-19T19:29:00,facebook,meeting notes shared,25,20,7,user0,35726,neutral
+p1_236,2025-03-22T02:07:00,instagram,not so happy with this #tips,118,14,8,user10,2714,negative
+p1_237,2025-03-30T09:36:00,instagram,new post is live,79,4,20,user13,9480,neutral
+p1_238,2025-03-26T12:01:00,instagram,amazing support from the team #news #team,60,7,19,user19,17482,positive
+p1_239,2025-03-21T17:20:00,x,hate the new layout #event,19,8,7,user8,46344,negative
+p1_240,2025-03-10T13:58:00,linkedin,so happy with this #tips #team,16,3,8,user7,14113,positive
+p1_241,2025-03-27T20:21:00,x,awful experience today #event,80,1,10,user35,46366,negative
+p1_242,2025-03-21T10:11:00,x,excellent results this week,28,0,5,user18,32299,positive
+p1_243,2025-04-07T18:02:00,instagram,so happy with this,45,5,38,user9,14635,positive
+p1_244,2025-04-01T19:29:00,instagram,reading list updated,114,18,36,user4,13953,neutral
+p1_245,2025-04-02T21:04:00,instagram,excellent results this week #product,37,0,37,user2,43665,positive
+p1_246,2025-03-26T20:47:00,facebook,great launch today #news #event,32,14,9,user4,13953,positive
+p1_247,2025-03-17T08:29:00,instagram,terrible outage again #event,56,16,6,user37,3264,negative
+p1_248,2025-03-13T20:18:00,instagram,new post is live #tips,48,7,8,user12,41130,neutral
+p1_249,2025-03-21T19:01:00,x,not amazing support from the team #tips #team,47,7,14,user17,33560,negative
+p1_250,2025-03-26T13:36:00,linkedin,great launch today #team,56,1,4,user21,10021,positive
+p1_251,2025-03-17T02:00:00,x,hate the new layout #tips,31,4,2,user29,11812,negative
+p1_252,2025-03-07T09:04:00,x,great launch today #tips #team #product,24,8,3,user36,7769,positive
+p1_253,2025-03-05T19:41:00,x,great launch today #news #team #event,40,3,21,user34,45705,positive
+p1_254,2025-03-02T06:04:00,instagram,excellent results this week #team,20,4,11,user27,25443,positive
+p1_255,2025-03-10T12:37:00,linkedin,great launch today,12,3,10,user13,9480,positive
+p1_256,2025-03-19T11:12:00,x,love the new update,36,7,7,user32,48655,positive
+p1_257,2025-03-13T19:03:00,x,new post is live #product,40,1,15,user13,9480,neutral
+p1_258,2025-03-08T13:20:00,instagram,reading list updated,68,3,1,user3,13149,neutral
+p1_259,2025-03-15T06:12:00,linkedin,meeting notes shared,47,1,13,user37,3264,neutral
+p1_260,2025-04-02T13:23:00,facebook,hate the new layout #tips,76,5,4,user10,2714,negative
+p1_261,2025-03-15T12:01:00,facebook,so disappointed with the delay #team,66,2,12,user24,22785,negative
+p1_262,2025-04-11T19:14:00,instagram,reading list updated #team,147,17,42,user8,46344,neutral
+p1_263,2025-03-26T12:07:00,instagram,schedule for next week #tips,74,11,23,user4,13953,neutral
+p1_264,2025-03-07T19:56:00,instagram,meeting notes shared #tips,128,8,35,user7,14113,neutral
+p1_265,2025-04-13T17:56:00,linkedin,amazing support from the team #news #tips,26,16,20,user1,30604,positive
+p1_266,2025-04-09T20:15:00,x,so happy with this #team,18,5,8,user33,10855,positive
+p1_267,2025-04-04T19:44:00,facebook,great launch today #news #team,166,10,31,user38,48686,positive
+p1_268,2025-03-08T13:23:00,x,schedule for next week #news,20,8,5,user30,8231,neutral
+p1_269,2025-04-05T15:54:00,instagram,this is broken and slow #news #product,35,15,3,user27,25443,negative
+p1_270,2025-04-01T15:10:00,x,photo from the event #team,45,13,9,user5,10157,neutral
+p1_271,2025-04-04T20:47:00,facebook,photo from the event,41,1,29,user29,11812,neutral
+p1_272,2025-04-02T08:25:00,x,excellent results this week #tips #product,50,3,7,user26,46252,positive
+p1_273,2025-03-27T14:46:00,x,not amazing support from the team #tips #team,33,12,9,user1,30604,negative
+p1_274,2025-03-16T17:16:00,instagram,not so disappointed with the delay #team,141,5,40,user17,33560,positive
+p1_275,2025-04-11T14:06:00,linkedin,amazing support from the team,59,6,21,user17,33560,positive
+p1_276,2025-04-14T18:06:00,linkedin,so happy with this #event,36,3,4,user16,40155,positive
+p1_277,2025-04-01T16:03:00,facebook,photo from the event,44,6,14,user37,3264,neutral
+p1_278,2025-03-17T13:00:00,linkedin,terrible outage again #team,27,1,21,user27,25443,negative
+p1_279,2025-03-23T19:40:00,x,excellent results this week,85,20,5,user12,41130,positive
+p1_280,2025-03-26T12:46:00,x,so disappointed with the delay #news #event,28,2,11,user36,7769,negative
+p1_281,2025-03-04T18:37:00,linkedin,amazing support from the team,38,8,4,user35,46366,positive
+p1_282,2025-03-04T19:57:00,facebook,so happy with this,89,0,29,user32,48655,positive
+p1_283,2025-03-22T08:01:00,facebook,so disappointed with the delay,37,4,31,user14,12227,negative
+p1_284,2025-03-26T12:27:00,instagram,photo from the event,13,19,9,user30,8231,neutral
+p1_285,2025-03-10T22:51:00,x,new post is live #team,53,11,3,user8,46344,neutral
+p1_286,2025-03-12T22:03:00,linkedin,not so happy with this #news,6,6,5,user10,2714,negative
+p1_287,2025-03-06T23:21:00,facebook,this is broken and slow,35,5,5,user14,12227,negative
+p1_288,2025-04-11T04:26:00,x,not great launch today #news #tips,81,9,7,user14,12227,negative
+p1_289,2025-03-23T20:30:00,x,reading list updated,32,4,5,user25,20248,neutral
+p1_290,2025-03-13T22:46:00,facebook,not so disappointed with the delay #news #tips,25,6,12,user5,10157,positive
+p1_291,2025-04-05T21:45:00,instagram,schedule for next week #team,62,2,21,user6,33415,neutral
+p1_292,2025-04-13T19:21:00,x,love the new update,74,13,21,user24,22785,positive
+p1_293,2025-03-14T19:45:00,instagram,photo from the event,88,24,21,user22,20349,neutral
+p1_294,2025-04-10T19:33:00,instagram,new post is live #launch,423,61,201,user33,10855,neutral
+p1_295,2025-04-04T18:06:00,linkedin,new post is live #news #tips #team,53,4,13,user15,7171,neutral
+p1_296,2025-04-05T20:17:00,x,schedule for next week #event,24,8,21,user31,31913,neutral
+p1_297,2025-03-24T16:49:00,instagram,meeting notes shared,59,7,19,user28,4026,neutral
+p1_298,2025-04-10T11:58:00,instagram,excellent results this week #event,54,10,15,user20,40176,positive
+p1_299,2025-03-07T07:32:00,x,photo from the event #news #tips #product,28,3,4,user8,46344,neutral
+p1_300,2025-03-04T21:00:00,instagram,so disappointed with the delay #tips #team,25,1,11,user8,46344,negative
+p1_301,2025-04-13T19:38:00,instagram,meeting notes shared #team,112,26,40,user25,20248,neutral
+p1_302,2025-03-23T09:24:00,facebook,excellent results this week #event,75,2,6,user11,13329,positive
+p1_303,2025-03-19T20:07:00,x,schedule for next week #team,18,0,1,user3,13149,neutral
+p1_304,2025-04-02T12:16:00,linkedin,schedule for next week,35,2,7,user38,48686,neutral
+p1_305,2025-03-14T18:45:00,linkedin,hate the new layout #tips,19,6,2,user23,10441,negative
+p1_306,2025-03-29T13:40:00,facebook,this is broken and slow #tips #product,19,13,7,user20,40176,negative
+p1_307,2025-04-08T10:24:00,x,this is broken and slow,47,2,2,user4,13953,negative
+p1_308,2025-04-06T09:00:00,instagram,excellent results this week #tips #launch,127,34,9,user6,33415,positive
+p1_309,2025-03-06T06:39:00,x,not great launch today #event,46,4,8,user11,13329,negative
+p1_310,2025-04-13T06:45:00,facebook,not so happy with this #product,42,12,15,user31,31913,negative
+p1_311,2025-04-03T06:13:00,x,meeting notes shared #product #event,57,7,26,user9,14635,neutral
+p1_312,2025-04-01T06:48:00,linkedin,this is broken and slow #news #tips #team,74,10,7,user16,40155,negative
+p1_313,2025-03-09T20:53:00,instagram,new post is live #team #event,101,14,11,user17,33560,neutral
+p1_314,2025-04-11T16:22:00,instagram,this is broken and slow,110,17,26,user31,31913,negative
+p1_315,2025-03-18T08:53:00,facebook,schedule for next week,33,1,13,user13,9480,neutral
+p1_316,2025-04-12T17:58:00,facebook,not so disappointed with the delay #news #team,45,5,15,user13,9480,positive
+p1_317,2025-03-11T17:28:00,instagram,amazing support from the team,19,13,7,user39,45976,positive
+p1_318,2025-03-05T16:45:00,x,excellent results this week,6,6,17,user24,22785,positive
+p1_319,2025-04-07T10:36:00,facebook,terrible outage again #tips,45,6,8,user32,48655,negative
+p1_320,2025-03-27T14:13:00,x,not amazing support from the team #event,36,7,5,user6,33415,negative
+p1_321,2025-03-18T20:54:00,facebook,photo from the event #event,32,3,6,user11,13329,neutral
+p1_322,2025-04-13T13:33:00,instagram,excellent results this week #event,41,4,15,user30,8231,positive
+p1_323,2025-04-13T16:04:00,x,hate the new layout #team #product,45,2,33,user8,46344,negative
+p1_324,2025-03-01T21:04:00,x,excellent results this week #news #event,6,0,13,user26,46252,positive
+p1_325,2025-03-29T11:22:00,x,new post is live #product #event,26,1,7,user31,31913,neutral
+p1_326,2025-04-06T19:34:00,linkedin,photo from the event #news #product #launch,119,4,178,user36,7769,neutral
+p1_327,2025-04-01T15:59:00,facebook,meeting notes shared #event,56,1,5,user6,33415,neutral
+p1_328,2025-03-28T20:13:00,x,great launch today #product,33,4,9,user32,48655,positive
+p1_329,2025-03-24T13:33:00,x,schedule for next week #news #tips #event,18,1,5,user3,13149,neutral
+p1_330,2025-03-25T17:48:00,instagram,great launch today #news #product #launch,137,21,50,user19,17482,positive
+p1_331,2025-03-14T13:51:00,linkedin,love the new update #product,26,4,1,user6,33415,positive
+p1_332,2025-03-07T20:26:00,instagram,love the new update #tips #product,20,7,30,user15,7171,positive
+p1_333,2025-03-18T21:08:00,instagram,so disappointed with the delay #team,53,1,16,user1,30604,negative
+p1_334,2025-04-01T18:58:00,linkedin,photo from the event,27,3,15,user24,22785,neutral
+p1_335,2025-04-12T23:56:00,linkedin,awful experience today #product #event,42,3,8,user37,3264,negative
+p1_336,2025-04-13T19:14:00,x,photo from the event #tips,59,9,67,user1,30604,neutral
+p1_337,2025-03-10T20:22:00,x,this is broken and slow #news #event,11,9,22,user23,10441,negative
+p1_338,2025-03-02T20:01:00,facebook,photo from the event,18,13,5,user21,10021,neutral
+p1_339,2025-04-14T12:12:00,facebook,so happy with this #news,49,3,16,user17,33560,positive
+p1_340,2025-03-31T23:48:00,facebook,reading list updated,30,3,12,user24,22785,neutral
+p1_341,2025-04-04T13:44:00,facebook,reading list updated #tips #launch,94,34,23,user4,13953,neutral
+p1_342,2025-04-06T16:59:00,x,awful experience today,19,1,15,user8,46344,negative
+p1_343,2025-03-17T09:02:00,x,hate the new layout,54,5,7,user12,41130,negative
+p1_344,2025-04-08T20:54:00,linkedin,reading list updated #tips,73,7,28,user9,14635,neutral
+p1_345,2025-03-29T12:13:00,x,excellent results this week #news #team,22,2,8,user37,3264,positive
+p1_346,2025-03-29T19:04:00,instagram,this is broken and slow,78,3,31,user9,14635,negative
+p1_347,2025-03-18T10:52:00,linkedin,amazing support from the team,36,1,3,user18,32299,positive
+p1_348,2025-03-16T13:26:00,facebook,reading list updated,198,3,64,user11,13329,neutral
+p1_349,2025-03-18T13:09:00,x,terrible outage again,34,3,7,user18,32299,negative
+p1_350,2025-04-02T11:48:00,linkedin,this is broken and slow #news #tips #event,15,11,5,user9,14635,negative
+p1_351,2025-03-23T03:39:00,instagram,amazing support from the team #tips,52,10,10,user37,3264,positive
+p1_352,2025-03-01T19:06:00,linkedin,hate the new layout,69,12,16,user19,17482,negative
+p1_353,2025-03-01T22:13:00,instagram,not this is broken and slow #product,29,1,5,user22,20349,positive
+p1_354,2025-03-09T11:51:00,facebook,great launch today #team #event,27,5,6,user2,43665,positive
+p1_355,2025-03-23T09:02:00,instagram,meeting notes shared #tips #team,25,2,5,user22,20349,neutral
+p1_356,2025-03-27T13:16:00,linkedin,schedule for next week #event,43,3,6,user24,22785,neutral
+p1_357,2025-04-13T06:12:00,facebook,schedule for next week #launch,63,15,21,user32,48655,neutral
+p1_358,2025-04-05T18:06:00,x,new post is live,12,12,2,user4,13953,neutral
+p1_359,2025-03-13T13:09:00,facebook,excellent results this week #news #event,45,3,11,user23,10441,positive
+p1_360,2025-03-24T18:40:00,x,meeting notes shared #event,18,7,2,user37,3264,neutral
+p1_361,2025-04-03T21:52:00,instagram,amazing support from the team #news #team #launch,53,5,13,user3,13149,positive
+p1_362,2025-04-09T20:17:00,linkedin,schedule for next week,46,12,13,user10,2714,neutral
+p1_363,2025-03-20T21:12:00,linkedin,new post is live,35,6,16,user22,20349,neutral
+p1_364,2025-04-02T22:06:00,linkedin,schedule for next week #tips #event,67,2,9,user18,32299,neutral
+p1_365,2025-03-10T18:54:00,facebook,love the new update,30,2,0,user30,8231,positive
+p1_366,2025-03-21T16:07:00,x,so happy with this,24,0,11,user13,9480,positive
+p1_367,2025-04-10T03:57:00,instagram,photo from the event,36,2,10,user22,20349,neutral
+p1_368,2025-03-18T07:58:00,instagram,great launch today,48,14,22,user33,10855,positive
+p1_369,2025-03-01T17:28:00,facebook,reading list updated,35,0,8,user35,46366,neutral
+p1_370,2025-04-05T20:17:00,facebook,not great launch today #team,28,4,22,user20,40176,negative
+p1_371,2025-03-14T14:58:00,instagram,new post is live #news,36,4,11,user25,20248,neutral
+p1_372,2025-03-20T00:57:00,x,excellent results this week #launch,77,2,22,user14,12227,positive
+p1_373,2025-04-14T10:31:00,linkedin,not amazing support from the team #product,5,4,2,user11,13329,negative
+p1_374,2025-03-18T19:14:00,instagram,so happy with this #news #team #product,89,28,44,user36,7769,positive
+p1_375,2025-03-12T09:09:00,instagram,reading list updated #tips #team,46,4,5,user20,40176,neutral
+p1_376,2025-03-11T10:20:00,facebook,photo from the event #news,44,6,2,user30,8231,neutral
+p1_377,2025-04-08T12:16:00,facebook,amazing support from the team #tips #event,28,4,16,user9,14635,positive
+p1_378,2025-03-10T18:39:00,x,photo from the event,19,1,0,user16,40155,neutral
+p1_379,2025-03-28T20:51:00,x,great launch today #team #product #launch,152,13,29,user37,3264,positive
+p1_380,2025-03-11T10:26:00,facebook,photo from the event #team #event,15,4,12,user18,32299,neutral
+p1_381,2025-04-06T18:36:00,facebook,excellent results this week #tips,58,9,16,user33,10855,positive
+p1_382,2025-04-02T17:48:00,facebook,schedule for next week #team #launch,103,15,66,user20,40176,neutral
+p1_383,2025-03-29T14:58:00,instagram,meeting notes shared #news #tips,179,12,15,user23,10441,neutral
+p1_384,2025-03-20T18:46:00,x,excellent results this week #tips #product #event,47,4,3,user31,31913,positive
+p1_385,2025-03-17T20:31:00,facebook,great launch today #news #product,56,5,2,user19,17482,positive
+p1_386,2025-04-12T10:04:00,x,meeting notes shared,31,7,5,user18,32299,neutral
+p1_387,2025-04-04T16:14:00,facebook,love the new update #tips #team,53,3,18,user24,22785,positive
+p1_388,2025-03-18T07:42:00,facebook,new post is live #news,26,9,5,user3,13149,neutral
+p1_389,2025-03-02T16:07:00,instagram,reading list updated,31,5,19,user5,10157,neutral
+p1_390,2025-03-06T20:06:00,facebook,so disappointed with the delay #news,40,5,16,user9,14635,negative
+p1_391,2025-03-21T23:49:00,facebook,excellent results this week #tips,47,9,11,user27,25443,positive
+p1_392,2025-03-21T15:40:00,facebook,so happy with this #product,16,6,9,user18,32299,positive
+p1_393,2025-03-17T12:27:00,x,excellent results this week #event #launch,119,28,21,user1,30604,positive
+p1_394,2025-04-14T18:41:00,linkedin,this is broken and slow #news,25,11,8,user8,46344,negative
+p1_395,2025-03-22T13:39:00,linkedin,reading list updated,33,0,19,user22,20349,neutral
+p1_396,2025-04-05T07:12:00,x,reading list updated #news #event,38,4,11,user4,13953,neutral
+p1_397,2025-03-06T17:09:00,instagram,hate the new layout,51,15,22,user24,22785,negative
+p1_398,2025-03-17T20:10:00,instagram,schedule for next week #launch,122,9,11,user18,32299,neutral
+p1_399,2025-03-11T20:25:00,x,this is broken and slow #news,20,0,1,user27,25443,negative
+p1_400,2025-03-07T23:38:00,instagram,so happy with this #launch,163,17,40,user15,7171,positive
+p1_401,2025-03-26T13:05:00,x,not great launch today,9,13,14,user33,10855,negative
+p1_402,2025-03-07T11:17:00,facebook,awful experience today,24,10,7,user20,40176,negative
+p1_403,2025-03-18T07:13:00,instagram,great launch today #event,60,6,37,user16,40155,positive
+p1_404,2025-03-31T14:38:00,instagram,amazing support from the team,28,6,11,user35,46366,positive
+p1_405,2025-04-05T20:37:00,linkedin,so happy with this #tips,56,8,5,user3,13149,positive
+p1_406,2025-03-26T11:42:00,instagram,meeting notes shared #event #launch,238,9,13,user31,31913,neutral
+p1_407,2025-03-28T20:02:00,instagram,so happy with this #launch,248,21,39,user26,46252,positive
+p1_408,2025-03-14T19:17:00,x,amazing support from the team #news #product,38,26,8,user9,14635,positive
+p1_409,2025-04-08T10:39:00,facebook,not amazing support from the team,38,8,20,user1,30604,negative
+p1_410,2025-03-09T18:58:00,facebook,schedule for next week #product,32,2,4,user27,25443,neutral
+p1_411,2025-04-02T20:25:00,facebook,photo from the event #team,33,4,7,user24,22785,neutral
+p1_412,2025-03-05T21:32:00,linkedin,new post is live,25,3,10,user6,33415,neutral
+p1_413,2025-03-28T09:24:00,linkedin,not hate the new layout,34,9,23,user35,46366,positive
+p1_414,2025-03-12T20:04:00,x,photo from the event #launch,102,5,15,user16,40155,neutral
+p1_415,2025-03-13T19:49:00,instagram,amazing support from the team,61,2,15,user17,33560,positive
+p1_416,2025-03-16T11:26:00,instagram,so happy with this #news,117,18,37,user4,13953,positive
+p1_417,2025-04-05T12:44:00,linkedin,love the new update #event,25,6,21,user13,9480,positive
+p1_418,2025-04-05T22:54:00,instagram,photo from the event #team,18,8,7,user26,46252,neutral
+p1_419,2025-03-12T13:09:00,x,photo from the event,39,4,5,user17,33560,neutral
+p1_420,2025-03-25T12:15:00,instagram,great launch today #event,80,3,7,user11,13329,positive
+p1_421,2025-03-04T19:35:00,x,love the new update #tips,19,5,28,user15,7171,positive
+p1_422,2025-04-10T08:06:00,x,not so happy with this,49,1,10,user32,48655,negative
+p1_423,2025-04-13T15:40:00,linkedin,reading list updated,75,6,6,user37,3264,neutral
+p1_424,2025-03-17T13:04:00,linkedin,meeting notes shared #product,63,13,20,user15,7171,neutral
+p1_425,2025-03-25T17:35:00,x,schedule for next week #team #product,28,7,1,user23,10441,neutral
+p1_426,2025-03-25T18:15:00,instagram,amazing support from the team,42,9,43,user27,25443,positive
+p1_427,2025-04-04T18:04:00,facebook,great launch today #launch,93,32,24,user13,9480,positive
+p1_428,2025-03-04T14:06:00,linkedin,meeting notes shared #product,23,6,7,user35,46366,neutral
+p1_429,2025-03-24T20:58:00,linkedin,reading list updated #news #tips,75,7,9,user37,3264,neutral
+p1_430,2025-04-07T20:56:00,linkedin,photo from the event,39,4,9,user20,40176,neutral
+p1_431,2025-03-28T21:01:00,x,meeting notes shared #launch,123,9,24,user23,10441,neutral
+p1_432,2025-03-26T14:27:00,x,love the new update #tips,21,1,2,user1,30604,positive
+p1_433,2025-03-02T19:54:00,linkedin,not awful experience today,29,4,8,user36,7769,positive
+p1_434,2025-04-11T14:57:00,instagram,love the new update #tips,33,0,5,user31,31913,positive
+p1_435,2025-03-09T12:52:00,facebook,not so happy with this #product,26,4,3,user27,25443,negative
+p1_436,2025-03-16T18:27:00,facebook,new post is live #news #tips #team #product,204,14,12,user6,33415,neutral
+p1_437,2025-03-31T22:06:00,x,not hate the new layout #news,9,3,22,user2,43665,positive
+p1_438,2025-03-21T20:42:00,facebook,not great launch today #event,21,1,6,user3,13149,negative
+p1_439,2025-03-26T12:21:00,x,excellent results this week #news #team #product,5,3,11,user11,13329,positive
+p1_440,2025-03-27T11:28:00,linkedin,awful experience today #product,33,7,1,user37,3264,negative
+p1_441,2025-03-08T19:48:00,x,photo from the event #team,48,2,6,user20,40176,neutral
+p1_442,2025-03-01T19:35:00,x,great launch today #tips #event,40,0,29,user31,31913,positive
+p1_443,2025-04-12T20:02:00,instagram,not hate the new layout #tips,139,16,10,user33,10855,positive
+p1_444,2025-04-06T08:01:00,linkedin,terrible outage again #news,40,10,28,user7,14113,negative
+p1_445,2025-03-07T20:23:00,linkedin,photo from the event #news #event #launch,34,11,13,user26,46252,neutral
+p1_446,2025-03-31T14:19:00,facebook,amazing support from the team,98,14,12,user21,10021,positive
+p1_447,2025-03-23T12:55:00,linkedin,hate the new layout,24,8,6,user10,2714,negative
+p1_448,2025-04-03T13:56:00,x,great launch today,19,1,6,user25,20248,positive
+p1_449,2025-03-07T23:21:00,facebook,photo from the event,38,5,2,user26,46252,neutral
+p1_450,2025-04-01T22:32:00,linkedin,great launch today,26,2,11,user24,22785,positive
+p1_451,2025-04-02T06:42:00,instagram,so disappointed with the delay,40,11,39,user29,11812,negative
+p1_452,2025-04-14T12:31:00,instagram,new post is live,47,1,1,user32,48655,neutral
+p1_453,2025-03-13T19:26:00,x,reading list updated #event,68,3,5,user7,14113,neutral
+p1_454,2025-03-20T03:33:00,x,reading list updated,45,7,9,user2,43665,neutral
+p1_455,2025-03-07T03:32:00,x,awful experience today #product,30,3,4,user4,13953,negative
+p1_456,2025-03-01T04:34:00,instagram,terrible outage again,34,3,22,user7,14113,negative
+p1_457,2025-03-03T20:33:00,facebook,schedule for next week #team,44,2,7,user30,8231,neutral
+p1_458,2025-03-21T12:29:00,x,this is broken and slow #team,17,4,3,user7,14113,negative
+p1_459,2025-03-08T12:40:00,linkedin,new post is live,32,4,0,user35,46366,neutral
+p1_460,2025-04-03T20:25:00,instagram,new post is live #product #event,72,5,22,user13,9480,neutral
+p1_461,2025-03-09T12:24:00,instagram,new post is live #news #event,77,3,33,user9,14635,neutral
+p1_462,2025-03-29T19:09:00,instagram,schedule for next week #team,94,12,12,user22,20349,neutral
+p1_463,2025-03-25T13:17:00,instagram,new post is live #tips,86,1,18,user12,41130,neutral
+p1_464,2025-03-15T12:23:00,facebook,photo from the event,72,5,8,user23,10441,neutral
+p1_465,2025-03-21T13:46:00,instagram,terrible outage again #team,28,4,18,user9,14635,negative
+p1_466,2025-04-14T09:42:00,instagram,awful experience today,104,14,2,user9,14635,negative
+p1_467,2025-04-13T06:59:00,x,not amazing support from the team #product,32,1,5,user8,46344,negative
+p1_468,2025-03-13T20:50:00,facebook,schedule for next week,33,11,14,user29,11812,neutral
+p1_469,2025-04-12T20:09:00,facebook,photo from the event #team #product,47,10,33,user37,3264,neutral
+p1_470,2025-03-10T15:19:00,instagram,great launch today #launch,78,4,37,user28,4026,positive
+p1_471,2025-04-05T19:08:00,facebook,meeting notes shared #team,38,14,22,user2,43665,neutral
+p1_472,2025-03-16T20:31:00,x,love the new update #product,152,2,31,user30,8231,positive
+p1_473,2025-03-31T13:52:00,x,photo from the event #event,34,2,15,user7,14113,neutral
+p1_474,2025-03-30T19:54:00,x,new post is live #team #event,114,0,25,user24,22785,neutral
+p1_475,2025-04-08T19:05:00,x,new post is live #news,40,11,26,user4,13953,neutral
+p1_476,2025-03-18T06:59:00,x,awful experience today #product #launch,118,4,9,user6,33415,negative
+p1_477,2025-04-12T08:55:00,facebook,great launch today #event,29,9,7,user26,46252,positive
+p1_478,2025-04-09T19:59:00,x,excellent results this week,41,9,9,user16,40155,positive
+p1_479,2025-03-02T19:53:00,x,terrible outage again #tips,119,10,10,user2,43665,negative
+p1_480,2025-03-05T09:05:00,x,awful experience today #tips #product,13,1,5,user5,10157,negative
+p1_481,2025-03-06T20:04:00,x,not great launch today #team #event,27,0,1,user35,46366,negative
+p1_482,2025-03-30T20:51:00,linkedin,so disappointed with the delay,13,9,3,user32,48655,negative
+p1_483,2025-03-17T12:55:00,instagram,schedule for next week #news #product #event,32,0,25,user36,7769,neutral
+p1_484,2025-03-07T13:56:00,instagram,amazing support from the team #tips,38,8,5,user5,10157,positive
+p1_485,2025-03-05T07:08:00,linkedin,hate the new layout #news,53,0,25,user17,33560,negative
+p1_486,2025-04-11T14:13:00,facebook,not great launch today #product,41,12,18,user39,45976,negative
+p1_487,2025-03-27T07:10:00,x,great launch today #tips #event,29,6,2,user18,32299,positive
+p1_488,2025-03-02T17:39:00,linkedin,reading list updated #product,40,1,1,user30,8231,neutral
+p1_489,2025-03-12T18:56:00,x,schedule for next week,36,3,4,user12,41130,neutral
+p1_490,2025-03-30T18:53:00,facebook,so happy with this,45,2,4,user23,10441,positive
+p1_491,2025-03-12T06:19:00,instagram,awful experience today #tips #team,58,12,10,user34,45705,negative
+p1_492,2025-04-04T18:38:00,instagram,amazing support from the team #news,35,20,5,user7,14113,positive
+p1_493,2025-03-13T19:03:00,instagram,amazing support from the team #news,174,28,46,user18,32299,positive
+p1_494,2025-03-29T08:32:00,instagram,so happy with this #team,36,5,5,user33,10855,positive
+p1_495,2025-03-05T18:49:00,x,awful experience today,21,2,10,user20,40176,negative
+p1_496,2025-04-06T20:47:00,linkedin,so happy with this #news #tips,25,7,11,user9,14635,positive
+p1_497,2025-04-03T10:54:00,linkedin,meeting notes shared #tips,8,2,9,user11,13329,neutral
+p1_498,2025-03-25T21:18:00,instagram,reading list updated,43,3,6,user23,10441,neutral
+p1_499,2025-03-30T23:53:00,instagram,new post is live,40,19,34,user35,46366,neutral
